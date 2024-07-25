@@ -7,6 +7,7 @@ Par Emeric Gnonhoue
 Redux est une bibliothèque de gestion d'état pour les applications JavaScript, particulièrement populaire avec React. Elle aide à gérer l'état global de l'application de manière prévisible et centralisée.
 
 ### Concepts clés de Redux :
+
 Store : Un objet qui contient l'état global de l'application.
 
 Actions : Des objets qui décrivent les changements à apporter à l'etat.
@@ -16,6 +17,7 @@ Reducers : Des fonctions pures qui spécifient comment l'état change en répons
 Dispatch : Une méthode pour envoyer des actions au store.
 
 ### Cas d'utilisation de Redux dans React :
+
 **1- Applications avec un état complexe** : Lorsque l'état de l'application devient difficile à gérer avec les outils de base de React (useState, useContext).
 
 **2- Partage d'état entre composants non liés** : Quand des composants éloignés dans l'arborescence ont besoin d'accéder aux mêmes données.
@@ -28,15 +30,15 @@ Dispatch : Une méthode pour envoyer des actions au store.
 
 ## Partie 2: Exercices pratiques
 
-### Exercice 1 : Configuration de base de Redux dans React 
+### Exercice 1 : Configuration de base de Redux dans React
+
 Configurez Redux dans une application React simple.
-### `npm install redux react-redux`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `npm install redux react-redux @reduc-toolkit`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1- Exécutez la commande ci-dessus pour installer redux.
+
+2- Créez un fichier utils/store.js
 
 ### `npm test`
 

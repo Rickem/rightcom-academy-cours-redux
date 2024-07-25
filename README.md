@@ -2,7 +2,7 @@
 
 Par Emeric Gnonhoue
 
-## Partie 1
+## Partie 1: Introduction à Redux dans React
 
 Redux est une bibliothèque de gestion d'état pour les applications JavaScript, particulièrement populaire avec React. Elle aide à gérer l'état global de l'application de manière prévisible et centralisée.
 
@@ -13,14 +13,17 @@ Reducers : Des fonctions pures qui spécifient comment l'état change en répons
 Dispatch : Une méthode pour envoyer des actions au store.
 
 ### Cas d'utilisation de Redux dans React :
-Applications avec un état complexe : Lorsque l'état de l'application devient difficile à gérer avec les outils de base de React (useState, useContext).
-Partage d'état entre composants non liés : Quand des composants éloignés dans l'arborescence ont besoin d'accéder aux mêmes données.
-Gestion de données asynchrones : Pour gérer les appels API et les mises à jour d'état qui en résultent.
-Séparation des préoccupations : Redux permet de séparer la logique de gestion d'état de la logique de rendu des composants.
-Débogage et journalisation : Redux facilite le suivi des changements d'état et le débogage avec des outils comme Redux DevTools.
+**1- Applications avec un état complexe** : Lorsque l'état de l'application devient difficile à gérer avec les outils de base de React (useState, useContext).
+**2- Partage d'état entre composants non liés** : Quand des composants éloignés dans l'arborescence ont besoin d'accéder aux mêmes données.
+**3- Gestion de données asynchrones** : Pour gérer les appels API et les mises à jour d'état qui en résultent.
+**4- Séparation des préoccupations** : Redux permet de séparer la logique de gestion d'état de la logique de rendu des composants.
+**5- Débogage et journalisation** : Redux facilite le suivi des changements d'état et le débogage avec des outils comme Redux DevTools.
 
+## Partie 2: Exercices pratiques
 
-### `npm start`
+### Exercice 1 : Configuration de base de Redux dans React 
+Configurez Redux dans une application React simple.
+### `npm install redux react-redux`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
